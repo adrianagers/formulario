@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./image/icon.png">
+    <link rel="stylesheet" href="./form.css">
+    
+    <title>Formulario</title>
+</head>
+<body>
+<div class="image">
+    <img  src="./image/icon (1).png" alt="" width="100px">
+</div>
+<div class="flex">
+    
+    <form action="" class="formu" onsubmit="validarFormulario()">
+        <div class="divimputs">
+            <label class="label" for="" >Nombre :</label>
+            <input   class="input"type="text" id="nombre">
+        </div>
+        <div class="divimputs">
+            <label class="label" for="" >Apellido :</label>
+            <input  class="input" type="text" id="apellido">
+        </div>
+
+        <div class="divimputs">
+            <label class="label" for="" >Telefono :</label>
+            <input class="input" type="text" id="telefono">
+        </div>
+        <div class="divimputs">
+            <label class="label" for="" >Correo :</label>
+            <input class="input" type="email" id="correo">
+        </div>
+        <div class="divimputs">
+            <label class="label" for=""  >Contraseña :</label>
+            <input   class="input"type="password" id="contraseña">
+        </div>
+
+        <div class="divboton">
+            <input class="botonInput" type="submit" value="Enviar">
+        </div>
+
+        </form>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <script src="./form.js"></script>
+    
+</div>
+</body>
+</html>
